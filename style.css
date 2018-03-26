@@ -86,7 +86,7 @@ svg {
 }
 
 .pad {
-  transition: all 0.07s;
+  transition: all 0.05s;
   stroke: #181615;
   stroke-width: 4px;
 }
@@ -96,6 +96,6 @@ svg {
   stroke: white;
   stroke-width: 5px;
   filter: url(#glow);
-  transform: scale(1.1, 1.1);
+  transform: scale(1);
   transform-origin: 50% 50%;
 }

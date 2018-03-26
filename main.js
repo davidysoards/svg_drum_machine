@@ -17,6 +17,4 @@ function removeTransition(e) {
 const pads =  document.querySelectorAll('.pad');
 pads.forEach(key => key.addEventListener('transitionend', removeTransition));
 
-// pads.forEach(key => key.addEventListener('click', playSound));
-// document.onClick = playSound;
-// document.addEventListener('click', playSound);
+// pads.forEach(pad => pad.addEventListener('mousedown', playSound));

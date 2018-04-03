@@ -1,5 +1,3 @@
-window.addEventListener('keydown', playSound);
-
 function playSound(e) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const pad = document.querySelector(`.pad[data-key="${e.keyCode}"]`);
@@ -15,6 +13,7 @@ function removeTransition(e) {
 }
 
 const pads =  document.querySelectorAll('.pad');
+pads.forEach(key => key.addEventListener('click', playSound));
 pads.forEach(key => key.addEventListener('transitionend', removeTransition));
 
-// pads.forEach(pad => pad.addEventListener('mousedown', playSound));
+window.addEventListener('keydown', playSound);

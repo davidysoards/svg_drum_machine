@@ -13,7 +13,13 @@ function removeTransition(e) {
 }
 
 const pads =  document.querySelectorAll('.pad');
-pads.forEach(key => key.addEventListener('click', playSound));
+pads.forEach( pad => {
+
+  let e = new KeyboardEvent('keydown', { keyCode: pad.getAttribute('data-key') });
+
+  pad.addEventListener('click', () => playSound(e) );
+  pad.addEventListener('touchstart', () => playSound(e) );
+});
 pads.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 window.addEventListener('keydown', playSound);

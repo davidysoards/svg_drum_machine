@@ -17,8 +17,8 @@ pads.forEach( pad => {
 
   let e = new KeyboardEvent('keydown', { keyCode: pad.getAttribute('data-key') });
 
-  pad.addEventListener('click', () => playSound(e) );
-  pad.addEventListener('touchstart', () => playSound(e) );
+  pad.addEventListener('mousedown', () => playSound(e) );
+  // pad.addEventListener('touchstart', () => playSound(e) );
 });
 pads.forEach(key => key.addEventListener('transitionend', removeTransition));
 

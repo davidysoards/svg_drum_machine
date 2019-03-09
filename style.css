@@ -15,71 +15,9 @@ svg {
   height: 100%;
   overflow: visible;
   filter: drop-shadow(10px 2px 2px rgba(0, 0, 0, 0.2));
-
-}
-
-/*** SVG COLORS ***/
-.cls-1 {
-  fill: #62b1d4;
-}
-
-.cls-2 {
-  fill: #bcbec0;
-}
-
-.cls-3 {
-  fill: #757e7e;
-}
-
-.cls-4 {
-  fill: #898b8b;
-}
-
-.cls-5 {
-  fill: #838a8b;
-}
-
-.cls-6 {
-  opacity: 0.1;
-}
-
-.cls-7 {
-  fill: #c8c8c8;
-}
-
-.cls-8 {
-  fill: #181615;
-}
-
-.cls-9 {
-  fill: #30be77;
-}
-
-.cls-10 {
-  fill: #628aad;
-}
-
-.cls-11 {
-  fill: #585a5c;
-}
-
-.cls-12 {
-  fill: #dddadb;
-}
-
-.cls-14 {
-  fill: #9c0b0f;
-}
-
-.cls-15 {
-  fill: #a09891;
 }
 
 /*** PADS ***/
-
-.cls-17 {
-  fill: #6f6e71; 
-}
 
 .pad:hover {
   fill: #949397;
@@ -89,6 +27,11 @@ svg {
   transition: all 0.05s;
   stroke: #181615;
   stroke-width: 4px;
+}
+
+/* make labels NOT clickable */
+#keys {
+  pointer-events: none;
 }
 
 .playing {

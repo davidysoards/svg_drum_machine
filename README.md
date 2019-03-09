@@ -1,5 +1,7 @@
 ### Vanilla JavaScript SVG Drum Machine 🥁🤖
 
+This project is deployed via GitHub pages at [Vanilla JavaScript SVG Drum Machine](https://davidysoards.github.io/svg_drum_machine/).
+
 This project was inspired by Day 1 of Wes Bos's Javascript 30 class.
 
 I wanted to make something similar using **SVG.**

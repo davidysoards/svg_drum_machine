@@ -1,4 +1,4 @@
-### Vanilla JavaScript SVG Drum Machine 🥁🤖
+# Vanilla JavaScript SVG Drum Machine 🥁🤖
 
 This project is deployed via GitHub pages at [Vanilla JavaScript SVG Drum Machine](https://davidysoards.github.io/svg_drum_machine/).
 
